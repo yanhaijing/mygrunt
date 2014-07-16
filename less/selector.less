@@ -1,0 +1,56 @@
+/*!*S 测试css选择符 */
+*{color:#000}
+div{color:#100}
+.class{color:#200}
+#id{color:#300}
+div.class{color:#500}
+
+/*!* 关系选择符 */
+div a{color:#600}
+div > a{color:#700}
+div + a{color:#800}
+div ~ a{color:#900}
+
+/*!* 属性选择符 */
+a[href]{color:#a00}
+a[href="http://yanhaijing.com?a=b#hash"]{color:#b00}
+a[href~="a"]{color:#c00}
+a[href^="a"]{color:#f00}
+a[href$="a"]{color:#d00}
+a[href*="a"]{color:#e00}
+a[href|="a"]{color:#f00}
+
+/*!* 伪类选择符 */
+a:link{color:#f10}
+a:visted{color:#f20}
+a:hover{color:#f30}
+a:active{color:#f40}
+input:focus{color:#f50}
+a:lang(zh-cn){color:#f60}
+p:not(.abc){color:#f70;}
+html:root{color:#f80;}
+li:first-child{color:#f90;}
+li:last-child{color:#fa0;}
+li:only-child{color:#fb0;}
+li:nth-child(2){color:#fc0;}
+li:nth-last-child(1){color:#fd0;}
+p:first-of-type{color:#fe0;}
+p:last-of-type{color:#ff0;}
+p:only-of-type{color:#f01;}
+p:nth-of-type(2){color:#f02;}
+p:nth-last-of-type(1){color:#f03;}
+p:empty{height:25px;border:1px solid #ddd;background:#eee;}
+input:checked{background:#eee;}
+input[type="text"]:enabled{border:1px solid #090;background:#fff;color:#000;}
+input[type="text"]:disabled{border:1px solid #ccc;background:#eee;color:#ccc;}
+.panel:target{border-color:#f60;}
+@page:first{margin:100px 200px;}
+@page:left{margin-left:300px;}
+@page:right{margin-right:300px;}
+
+/*!* 伪对象选择符 */
+p::first-letter {float:left;font-size:40px;font-weight:bold;line-height:1;}
+p::first-line {color:#090;}
+p::before{position:absolute;background:#fff;color:#000;content:"如果你的能看到这段文字，说明你的浏览器只支持E:before";font-size:14px;}
+p::after{position:absolute;left:0;background:#fff;color:#000;content:"如果你的能看到这段文字，说明你的浏览器支持E:after和E::after";font-size:14px;}
+p::selection{background:#000;color:#f00;}

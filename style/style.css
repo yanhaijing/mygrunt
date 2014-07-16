@@ -1,0 +1,374 @@
+body, ul, li, h1, h2, h3, p, dl, dt, dd {
+				margin: 0;
+				padding: 0;
+			}
+			ul, li {
+				list-style: none;
+			}
+			body {
+				font-size: 12px;
+				font-family: "Hiragino Sans GB", "Microsoft Yahei", sans-serif, arial;
+				position: relative;
+			}
+			.hide {
+				display: none;
+			}
+			a.cu:hover {
+				cursor: pointer;
+				text-decoration: underline;
+			}
+			a.de:hover {
+				cursor: default;
+			}
+			.clearfix {
+				zoom: 1;
+			}
+			.clearfix:before, .clearfix:after {
+				display: table;
+				content: "";
+				line-height: 0;
+			}
+			.clearfix:after {
+				clear: both;
+			}
+			.overflow {
+				text-indent: -9999px;
+				overflow: hidden;
+			}
+			.footer {
+				margin: 40px 0;
+				color: #666;
+				text-align: center;
+				line-height: 1.8;
+			}
+			.footer a {
+				color: #666;
+				margin: 0 3px;
+				text-decoration: none;
+			}
+			.footer a:hover {
+				text-decoration: underline;
+			}
+			.footer img {
+				display: block;
+				margin: 30px auto 0;
+			}
+			body {
+				background: #fbf7ee url(http://img03.mifile.cn/webfile/images/hd/2013120401/ques-bg2.png) repeat-x center top;
+			}
+			.wrap {
+				background: url(http://img03.mifile.cn/webfile/images/hd/2013120401/ques-bg.jpg) no-repeat center top;
+				min-height: 710px;
+			}
+			.content {
+				width: 960px;
+				margin: 0 auto;
+			}
+			h1 a {
+				display: block;
+				width: 60px;
+				height: 58px;
+				background: url(http://img03.mifile.cn/webfile/images/hd/2013120401/index-logo.png) no-repeat center;
+				_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=noscale,src="http://img03.mifile.cn/webfile/images/hd/2013120401/index-logo.png");
+				_background: none;
+			}
+			h2 {
+				margin: 50px 0 10px;
+				width: 299px;
+				height: 179px;
+				background: url(http://img03.mifile.cn/webfile/images/hd/2013120401/ques-title.png) no-repeat center;
+				_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=noscale,src="http://img03.mifile.cn/webfile/images/hd/2013120401/ques-title.png");
+				_background: none;
+			}
+			.content-top {
+				width: 440px;
+				padding-top: 10px;
+				margin: 50px 0 25px;
+				border-top: 1px dotted #bbc0b9;
+			}
+			.content-top p, .content-top dl {
+				float: left;
+			}
+			.content-top p {
+				width: 106px;
+				height: 106px;
+			}
+			.content-top p img {
+				border: 3px solid #ababab;
+				-webkit-border-radius: 50px;
+				-moz-border-radius: 50px;
+				border-radius: 50px;
+			}
+			.content-top dl {
+				width: 305px;
+				padding-left: 25px;
+				font-size: 14px;
+				color: #315858;
+			}
+			.content-top dl dt {
+				padding-top: 15px;
+				margin-bottom: 10px;
+				color: #315858;
+				font-size: 20px;
+			}
+			.content-top dl dd {
+				line-height: 1.5;
+			}
+			.content-top dl dd strong {
+				font-size: 20px;
+			}
+			.content-tips {
+				margin-top: 15px;
+				color: #1e4d57;
+				font-size: 14px;
+				line-height: 1.5;
+			}
+			.content-box {
+				padding: 30px 0;
+				-webkit-border-radius: 4px;
+				-moz-border-radius: 4px;
+				border-radius: 4px;
+				background-color: #fff;
+				-webkit-box-shadow: 0 1px 5px rgba(0,0,0,.13);
+				-moz-box-shadow: 0 1px 5px rgba(0,0,0,.13);
+				box-shadow: 0 1px 5px rgba(0,0,0,.13);
+			}
+			.content-box-step {
+				width: 766px;
+				height: 98px;
+				margin: 0 auto 15px;
+				background-image: url(http://img03.mifile.cn/webfile/images/hd/2013120401/ques-step.png);
+				background-repeat: no-repeat;
+			}
+			.content-box-step-01 {
+				background-position: 0 0;
+			}
+			.content-box-step-02 {
+				background-position: 0 -103px;
+			}
+			.content-box-step-03 {
+				background-position: 0 -206px;
+			}
+			.content-sign {
+				position: relative;
+				height: 12px;
+			}
+			.content-sign span, .content-btn a em {
+				background-image: url(http://img03.mifile.cn/webfile/images/hd/2013120401/ques-icon.png);
+				background-repeat: no-repeat;
+			}
+			.content-sign span {
+				position: absolute;
+				top: 0;
+				display: block;
+				width: 36px;
+				height: 12px;
+				background-position: -56px -2px;
+			}
+			.content-sign-01 span {
+				left: 130px;
+			}
+			.content-sign-02 span {
+				left: 455px;
+			}
+			.content-sign-03 span {
+				left: 805px;
+			}
+			.content-main {
+				background-color: #ebf1f5;
+			}
+			.content-bottom-tips {
+				float: left;
+				padding: 15px 0 0 45px;
+				color: #81939f;
+				font-size: 14px;
+				line-height: 1.2;
+			}
+			.content-bottom-tips span {
+				font-size: 18px;
+				margin-right: 10px;
+			}
+			.content-btn {
+				float: right;
+				padding: 20px 50px 0 0;
+				text-align: right;
+			}
+			.content-btn a {
+				display: block;
+				float: right;
+				margin-left: 10px;
+				width: 153px;
+				height: 45px;
+				line-height: 45px;
+				color: #fff;
+				font-size: 18px;
+				text-decoration: none;
+				text-align: center;
+				-webkit-border-radius: 4px;
+				-moz-border-radius: 4px;
+				border-radius: 4px;
+				background-color: #bfcdd7;
+				cursor: pointer;
+			}
+			.content-btn a:hover {
+				opacity: .8;
+			}
+			.content-btn a span {
+				float: left;
+				text-indent: 15px;
+			}
+			.content-btn a.content-btn-next {
+				background-color: #315858;
+			}
+			.content-btn a em {
+				display: block;
+				width: 27px;
+				height: 26px;
+				float: right;
+				margin: 9px 15px 0 0;
+				_margin: 9px 5px 0 0;
+			}
+			.content-btn a.content-btn-pre em {
+				background-position: -27px 0;
+			}
+			.content-btn a.content-btn-next em {
+				background-position: 0 0;
+			}
+			.content-main-tit {
+				padding: 50px 0 0 45px;
+				color: #bfcdd7;
+			}
+			.content-main-step, .content-main-ques {
+				float: left;
+			}
+			.content-main-step em {
+				font-size: 75px;
+				font-style: normal;
+			}
+			.content-main-step span {
+				font-size: 24px;
+			}
+			.content-main-ques {
+				width: 550px;
+				padding: 15px 0 0 15px;
+			}
+			.content-main-ques dt {
+				font-size: 18px;
+				color: #81939f;
+				margin-bottom: 5px;
+			}
+			.content-main-random {
+				float: right;
+				padding: 15px 62px 0 0;
+			}
+			.content-main-random a {
+				display: block;
+				text-align: center;
+				width: 167px;
+				height: 31px;
+				text-decoration: none;
+				line-height: 31px;
+				color: #fff;
+				font-size: 14px;
+				background: url(http://img03.mifile.cn/webfile/images/hd/2013120401/ques-random.png) no-repeat center;
+			}
+			.content-main-select {
+				position: relative;
+				z-index: 1000;
+				width: 145px;
+			}
+			.content-main-select p {
+				width: 130px;
+				height: 28px;
+				line-height: 28px;
+				text-align: center;
+				color: #fff;
+				background-color: #bfcdd7;
+				border-radius: 5px;
+				font-size: 14px;
+			}
+			.content-main-select p em {
+				font-style: normal;
+			}
+			.content-main-con {
+				padding: 10px 0 0 145px;
+			}
+			.content-main-con ul li {
+				position: relative;
+				width: 110px;
+				height: 150px;
+				float: left;
+				margin-right: 20px;
+				text-align: center;
+				font-size: 16px;
+				color: #81939f;
+				z-index: 997;
+			}
+			.content-main-con ul li span {
+				display: block;
+				padding: 115px 0 0 0;
+				text-align: center;
+			}
+			.content-main-con ul li img {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100px;
+				height: 100px;
+				border: 3px solid #ababab;
+				-webkit-border-radius: 200px;
+				-moz-border-radius: 200px;
+				border-radius: 200px;
+				z-index: 999;
+				cursor: pointer;
+			}
+			.content-main-con ul li.current img {
+				border-color: #29a0a4;
+			}
+			.content-main-con ul li.current {
+				color: #4d6d83;
+			}
+			.content-main-con-dialog {
+				padding: 10px 0 30px 155px;
+			}
+			.content-main-con-dialog li {
+				width: 211px;
+				height: 95px;
+				padding: 15px;
+				margin: 0 20px 25px 0;
+				float: left;
+				background-repeat: no-repeat;
+				background-image: url(http://img03.mifile.cn/webfile/images/hd/2013120401/ques-dialog.png);
+				font-size: 16px;
+				color: #fff;
+				line-height: 1.5;
+				background-position: 0 0;
+				cursor: pointer;
+			}
+			.content-main-con-dialog li:hover {
+				background-position: -240px 0;
+			}
+			.content-main-con-dialog li.current {
+				background-position: -480px 0;
+			}
+			.list-select {
+				height: 150px;
+				position: relative;
+			}
+			#dialogTitle {
+				height: 280px;
+			}
+			.loading {
+				width: 150px;
+				height: 24px;
+				position: absolute;
+				left: 40%;
+				top: 25%;
+				margin-left: -75px;
+				line-height: 24px;
+				background: url(http://p.www.xiaomi.com/zt/131008/images/loading.gif) no-repeat scroll 18px center;
+				z-index: 1000;
+				color: #5c707e;
+				text-align: center;
+				text-indent: 16px;
+			}

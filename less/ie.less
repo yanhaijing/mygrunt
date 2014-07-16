@@ -1,0 +1,14 @@
+/*!*S 测试css选择符 */
+.test{
+	color:#090;
+	color:#090\9; /* For IE8+ */
+	*color:#f00;  /* For IE7 and earlier */
+	_color:#ff0;  /* For IE6 and earlier */
+}
+/*!* 选择符hack */
+* html .test{color:#090;}       /* For IE6 and earlier */
+* + html .test{color:#ff0;}     /* For IE7 */
+.test:lang(zh-cn){color:#f00;}  /* For IE8+ and not IE */
+.test:nth-child(1){color:#0ff;} /* For IE9+ and not IE */
+/*!*E 测试css选择符 */
+/*!*S 测试css选择符 */

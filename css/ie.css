@@ -1,0 +1,9 @@
+/*!*S 测试css选择符 */
+.test{color:#090;color:#090\9;*color:red;_color:#ff0}
+/*!* 选择符hack */
+		* html .test{color:#090}
+	*+html .test{color:#ff0}
+.test:lang(zh-cn){color:red}
+.test:nth-child(1){color:#0ff}
+/*!*E 测试css选择符 */
+ /*!*S 测试css选择符 */

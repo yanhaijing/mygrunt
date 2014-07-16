@@ -1,0 +1,91 @@
+blockquote,body,button,caption,dd,dl,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,menu,ol,p,pre,td,textarea,th,ul{padding:0;margin:0}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+menu,ol,ul{list-style:none}
+table{border-spacing:0;border-collapse:collapse}
+fieldset,img{border:0}
+legend{display:none}
+a:active,a:focus{outline:0}
+address,cite,dfn,em,var{font-style:normal}
+code,kbd,pre,samp{font-family:'courier new',courier,monospace}
+abbr[title]{cursor:help;border-bottom:1px dotted}
+a{text-decoration:none}
+body,button,input,optgroup,option,select,textarea{font:12px / 1 tahoma,\5b8b\4f53,sans-serif}
+.clear{zoom:1}
+.clear:after{display:block;clear:both;content:""}
+/*!*S 缩进测试 */
+p{font-size:11px}
+	p a{font-size:12px}
+	p>a{font-size:13px}
+		.a p a{font-size:14px}
+			.a .b p a{font-size:15px}
+				.a .b .c p a{font-size:16px}
+					.a .b .c .d p a{font-size:17px}
+						.a .b .c .d .e p a{font-size:18px}
+							.a .b .c .d .e .f p a{font-size:19px}
+/*!*E 缩进测试 */
+ /*!*S 测试css选择符 */
+*{color:#000}
+div{color:#100}
+.class{color:#200}
+#id{color:#300}
+div.class{color:#500}
+/*!* 关系选择符 */
+	div a{color:#600}
+	div>a{color:#700}
+div+a{color:#800}
+div~a{color:#900}
+/*!* 属性选择符 */
+a[href]{color:#a00}
+a[href="http://yanhaijing.com?a=b#hash"]{color:#b00}
+a[href~="a"]{color:#c00}
+a[href^="a"]{color:red}
+a[href$="a"]{color:#d00}
+a[href*="a"]{color:#e00}
+a[href|="a"]{color:red}
+/*!* 伪类选择符 */
+a:link{color:#f10}
+a:visted{color:#f20}
+a:hover{color:#f30}
+a:active{color:#f40}
+input:focus{color:#f50}
+a:lang(zh-cn){color:#f60}
+p:not(.abc){color:#f70}
+html:root{color:#f80}
+li:first-child{color:#f90}
+li:last-child{color:#fa0}
+li:only-child{color:#fb0}
+li:nth-child(2){color:#fc0}
+li:nth-last-child(1){color:#fd0}
+p:first-of-type{color:#fe0}
+p:last-of-type{color:#ff0}
+p:only-of-type{color:#f01}
+p:nth-of-type(2){color:#f02}
+p:nth-last-of-type(1){color:#f03}
+p:empty{height:25px;background:#eee;border:1px solid #ddd}
+input:checked{background:#eee}
+input[type=text]:enabled{color:#000;background:#fff;border:1px solid #090}
+input[type=text]:disabled{color:#ccc;background:#eee;border:1px solid #ccc}
+.panel:target{border-color:#f60}
+@page :first{margin:100px 200px}
+@page :left{margin-left:300px}
+@page :right{margin-right:300px}
+/*!* 伪对象选择符 */
+p::first-letter{float:left;font-size:40px;font-weight:700;line-height:1}
+p::first-line{color:#090}
+p::before{position:absolute;font-size:14px;color:#000;content:"如果你的能看到这段文字，说明你的浏览器只支持E:before";background:#fff}
+p::after{position:absolute;left:0;font-size:14px;color:#000;content:"如果你的能看到这段文字，说明你的浏览器支持E:after和E::after";background:#fff}
+p::-moz-selection{color:red;background:#000}
+p::selection{color:red;background:#000}
+/*!*S 测试css选择符 */
+.test{color:#090;color:#090\9;*color:red;_color:#ff0}
+/*!* 选择符hack */
+		* html .test{color:#090}
+	*+html .test{color:#ff0}
+.test:lang(zh-cn){color:red}
+.test:nth-child(1){color:#0ff}
+/*!*E 测试css选择符 */
+ /*!*S 测试css选择符 */
+.V2-FT-XOYO{background:#440067}
+	#V2-footer .ft-2{border-top-color:#440067}
+		#V2-footer .ft-m p,#V2-footer .ft-m p a{color:#9e9e9e}
+.test2{color:#123456}
